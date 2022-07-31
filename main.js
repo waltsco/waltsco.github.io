@@ -1,9 +1,11 @@
 require([
+    "esri/config",
     "esri/Map",
     "esri/views/SceneView",
     "esri/core/reactiveUtils",
     "dojo/domReady!"
     ], function (
+    esriConfig,
     Map,
     SceneView,
     reactiveUtils
