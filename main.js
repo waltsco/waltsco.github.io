@@ -8,7 +8,7 @@ require([
     SceneView,
     reactiveUtils
     ) {
-
+      esriConfig.apiKey = "b27603677da566d508bd89dab7b3168985e4400f3dd987edbd8683e90b739391";
       let map = new Map({
         basemap: "satellite"
       });
