@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Half Earth</title>
+    <title>Cole Walts</title>
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/f7230fbe7c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <link rel="stylesheet" href="https://js.arcgis.com/4.17/esri/themes/dark-blue/main.css">
     <link rel="stylesheet" href="main.css">
-    <script src="https://js.arcgis.com/4.17/"></script>
+    <script src="https://js.arcgis.com/4.23/"></script>
     <script src="main.js"></script>
   </head>
   <body>
-    <p>Hello, World!</p>
+    <div id="menu" onmouseleave="a.innerHTML='Hello, World!';">
+      <p id="a">Hello, World!</p>
+      
+      <p style="font-size:15px">Cole Walts <br> Solution Engineer @esri</p>
+
+      <a href="/about.html" class="fas fa-user-astronaut" onmouseover="a.innerHTML='About Me';"></a>
+      <a href="https://linkedin.com/in/waltsco" target="_blank" class="fa fa-linkedin" onmouseover="a.innerHTML='LinkedIn';"></a>
+      <a href="https://github.com/waltsco" target="_blank" class="fa fa-github" onmouseover="a.innerHTML='GitHub';"></a>
+      <a href="https://twitter.com/waltsco059" target="_blank" class="fa fa-twitter" onmouseover="a.innerHTML='Twitter';"></a>
+    
+    </div>
+
     <div id="sceneContainer"></div>
+
   </body>
 </html>
+

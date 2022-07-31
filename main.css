@@ -1,10 +1,85 @@
 body {
     padding: 0;
     margin: 0;
-  }
+}
   
-  #sceneContainer {
-    height: 100vh;
-    width: 100vw;
-    background: rgb(0,0,0);
-  }
+#sceneContainer {
+  height: 100vh;
+  width: 100vw;
+  background: rgb(0,0,0);
+}
+
+#menu {
+  height: 25vh;
+  width: 15vw;
+  position: absolute;
+  text-align: center;
+  top: 10vh;
+  left: 80vw;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  outline: 1px solid rgb(105, 220, 255);
+  color: rgb(255, 255, 255);
+  font-family: "Audiowide", sans-serif;
+  font-size: 200%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#menu::-webkit-scrollbar {
+  display: none;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fas {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+}
+
+.fas:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-user-astronaut{
+  background: black;
+}
+
+
+
+
+
+
